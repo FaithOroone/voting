@@ -1,0 +1,24 @@
+body{
+  padding: 0px;
+  margin: 0px;
+  font-family: sans-serif;
+  background-color: blue;
+}
+input button{
+  font-family: sans-serif;
+  display: block;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 15px;
+  outline: none;
+  width: 100%;
+  margin-bottom: 20px
+}
+container{
+  margin: 0px auto;
+  margin-top: 15px;
+  padding: 20px;
+}
+h2{
+  text-align: center;
+}
