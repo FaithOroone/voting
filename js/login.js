@@ -1,7 +1,6 @@
 //backend logic
 function login(){
 
-  window.alert("working");
 }
 
 
@@ -12,7 +11,10 @@ $(document).ready(function(){
   $("#voterForm").submit(function(event){
     event.preventDefault();
 
-    var userEmail =$("userName").val();
+    var userName =$("userName").val();
     var userId = $("id").val();
+    window.alert("userName" + "" + "userId");
+
+
   })
 })
