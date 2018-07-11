@@ -12,7 +12,7 @@ $(document).ready(function(){
   $("#voterForm").submit(function(event){
     event.preventDefault();
 
-    var userEmail =$("email").val();
+    var userEmail =$("userName").val();
     var userId = $("id").val();
   })
 })
